@@ -1,0 +1,932 @@
+<fednd2e_table>
+	<emblems>
+		<emblem type="weapon">
+			<name>sword</name>
+			<rank>C</rank>
+			<weapon_type>
+				<type>sword</type>
+				<rank>C</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<hit>2</hit>
+				<avoid>4</avoid>
+			</weapon_advantage>
+		</emblem>
+		<emblem type="weapon">
+			<name>sword</name>
+			<rank>B</rank>
+			<weapon_type>
+				<type>sword</type>
+				<rank>B</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<hit>3</hit>
+				<avoid>6</avoid>
+			</weapon_advantage>
+		</emblem>
+		<emblem type="weapon">
+			<name>sword</name>
+			<rank>A</rank>
+			<weapon_type>
+				<type>sword</type>
+				<rank>A</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<hit>5</hit>
+				<avoid>10</avoid>
+			</weapon_advantage>
+			<skills>
+				<skill>swordbreaker</skill>
+			</skills>
+		</emblem>
+		<emblem type="weapon">
+			<name>sword</name>
+			<rank>S</rank>
+			<weapon_type>
+				<type>sword</type>
+				<rank>S</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<hit>8</hit>
+				<avoid>16</avoid>
+			</weapon_advantage>
+			<skills>
+				<skill>swordbreaker</skill>
+				<skill>swordfair</skill>
+			</skills>
+		</emblem>
+		<emblem type="weapon">
+			<name>lance</name>
+			<rank>C</rank>
+			<weapon_type>
+				<type>lance</type>
+				<rank>C</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<hit>4</hit>
+				<damage>1</damage>
+			</weapon_advantage>
+		</emblem>
+		<emblem type="weapon">
+			<name>lance</name>
+			<rank>B</rank>
+			<weapon_type>
+				<type>lance</type>
+				<rank>B</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<hit>6</hit>
+				<damage>2</damage>
+			</weapon_advantage>
+		</emblem>
+		<emblem type="weapon">
+			<name>lance</name>
+			<rank>A</rank>
+			<weapon_type>
+				<type>lance</type>
+				<rank>A</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<hit>10</hit>
+				<damage>3</damage>
+			</weapon_advantage>
+			<skills>
+				<skill>lancebreaker</skill>
+			</skills>
+		</emblem>
+		<emblem type="weapon">
+			<name>lance</name>
+			<rank>S</rank>
+			<weapon_type>
+				<type>lance</type>
+				<rank>S</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<hit>16</hit>
+				<damage>4</damage>
+			</weapon_advantage>
+			<skills>
+				<skill>lancebreaker</skill>
+				<skill>lancefair</skill>
+			</skills>
+		</emblem>
+		<emblem type="weapon">
+			<name>axe</name>
+			<rank>C</rank>
+			<weapon_type>
+				<type>axe</type>
+				<rank>C</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<avoid>2</avoid>
+				<damage>2</damage>
+			</weapon_advantage>
+		</emblem>
+		<emblem type="weapon">
+			<name>axe</name>
+			<rank>B</rank>
+			<weapon_type>
+				<type>axe</type>
+				<rank>B</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<avoid>3</avoid>
+				<damage>4</damage>
+			</weapon_advantage>
+		</emblem>
+		<emblem type="weapon">
+			<name>axe</name>
+			<rank>A</rank>
+			<weapon_type>
+				<type>axe</type>
+				<rank>A</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<avoid>5</avoid>
+				<damage>6</damage>
+			</weapon_advantage>
+			<skills>
+				<skill>axebreaker</skill>
+			</skills>
+		</emblem>
+		<emblem type="weapon">
+			<name>axe</name>
+			<rank>S</rank>
+			<weapon_type>
+				<type>axe</type>
+				<rank>S</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<avoid>8</avoid>
+				<damage>8</damage>
+			</weapon_advantage>
+			<skills>
+				<skill>axebreaker</skill>
+				<skill>axefair</skill>
+			</skills>
+		</emblem>
+		<emblem type="weapon">
+			<name>bow</name>
+			<rank>C</rank>
+			<weapon_type>
+				<type>bow</type>
+				<rank>C</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<hit>2</hit>
+				<damage>1</damage>
+			</weapon_advantage>
+		</emblem>
+		<emblem type="weapon">
+			<name>bow</name>
+			<rank>B</rank>
+			<weapon_type>
+				<type>bow</type>
+				<rank>B</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<hit>4</hit>
+				<damage>2</damage>
+			</weapon_advantage>
+		</emblem>
+		<emblem type="weapon">
+			<name>bow</name>
+			<rank>A</rank>
+			<weapon_type>
+				<type>bow</type>
+				<rank>A</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<hit>6</hit>
+				<damage>3</damage>
+			</weapon_advantage>
+			<skills>
+				<skill>bowbreaker</skill>
+			</skills>
+		</emblem>
+		<emblem type="weapon">
+			<name>bow</name>
+			<rank>S</rank>
+			<weapon_type>
+				<type>bow</type>
+				<rank>S</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<hit>8</hit>
+				<damage>4</damage>
+			</weapon_advantage>
+			<skills>
+				<skill>bowbreaker</skill>
+				<skill>bowfair</skill>
+			</skills>
+		</emblem>
+		<emblem type="weapon">
+			<name>dagger</name>
+			<rank>X</rank>
+			<weapon_type>
+				<type>dagger</type>
+				<rank>C</rank>
+			</weapon_type>
+		</emblem>
+		<emblem type="weapon">
+			<name>dagger</name>
+			<rank>C</rank>
+			<weapon_type>
+				<type>dagger</type>
+				<rank>C</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<avoid>4</avoid>
+				<crit>1</crit>
+			</weapon_advantage>
+			<skills>
+				<skill>steal</skill>
+			</skills>
+		</emblem>
+		<emblem type="weapon">
+			<name>dagger</name>
+			<rank>B</rank>
+			<weapon_type>
+				<type>dagger</type>
+				<rank>B</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<avoid>8</avoid>
+				<crit>2</crit>
+			</weapon_advantage>
+			<skills>
+				<skill>steal</skill>
+			</skills>
+		</emblem>
+		<emblem type="weapon">
+			<name>dagger</name>
+			<rank>A</rank>
+			<weapon_type>
+				<type>dagger</type>
+				<rank>A</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<avoid>12</avoid>
+				<crit>3</crit>
+			</weapon_advantage>
+			<skills>
+				<skill>steal</skill>
+				<skill>daggerbreaker</skill>
+			</skills>
+		</emblem>
+		<emblem type="weapon">
+			<name>dagger</name>
+			<rank>S</rank>
+			<weapon_type>
+				<type>dagger</type>
+				<rank>S</rank>
+			</weapon_type>
+			<weapon_advantage>
+				<avoid>16</avoid>
+				<crit>5</crit>
+			</weapon_advantage>
+			<skills>
+				<skill>steal</skill>
+				<skill>daggerbreaker</skill>
+				<skill>daggerfair</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>health</name>
+			<rank>X</rank>
+			<stat_up>
+				<stat>hp</stat>
+				<bonus>16</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="stat">
+			<name>health</name>
+			<rank>C</rank>
+			<stat_up>
+				<stat>hp</stat>
+				<bonus>19</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="stat">
+			<name>health</name>
+			<rank>B</rank>
+			<stat_up>
+				<stat>hp</stat>
+				<bonus>22</bonus>
+			</stat_up>
+			<skills>
+				<skill>vengeance</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>health</name>
+			<rank>A</rank>
+			<stat_up>
+				<stat>hp</stat>
+				<bonus>26</bonus>
+			</stat_up>
+			<skills>
+				<skill>vengeance</skill>
+				<skill>wrath</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>health</name>
+			<rank>S</rank>
+			<stat_up>
+				<stat>hp</stat>
+				<bonus>30</bonus>
+			</stat_up>
+			<skills>
+				<skill>vengeance</skill>
+				<skill>wrath</skill>
+				<skill>counter</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>strength</name>
+			<rank>X</rank>
+			<stat_up>
+				<stat>str</stat>
+				<bonus>2</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="stat">
+			<name>strength</name>
+			<rank>C</rank>
+			<stat_up>
+				<stat>str</stat>
+				<bonus>4</bonus>
+			</stat_up>
+			<skills>
+				<skill>shove</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>strength</name>
+			<rank>B</rank>
+			<stat_up>
+				<stat>str</stat>
+				<bonus>6</bonus>
+			</stat_up>
+			<skills>
+				<skill>shove</skill>
+				<skill>swap</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>strength</name>
+			<rank>A</rank>
+			<stat_up>
+				<stat>str</stat>
+				<bonus>7</bonus>
+			</stat_up>
+			<skills>
+				<skill>shove</skill>
+				<skill>swap</skill>
+				<skill>stun</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>strength</name>
+			<rank>S</rank>
+			<stat_up>
+				<stat>str</stat>
+				<bonus>8</bonus>
+			</stat_up>
+			<skills>
+				<skill>smite</skill>
+				<skill>swap</skill>
+				<skill>stun</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>magic</name>
+			<rank>X</rank>
+			<stat_up>
+				<stat>mag</stat>
+				<bonus>2</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="stat">
+			<name>magic</name>
+			<rank>C</rank>
+			<stat_up>
+				<stat>mag</stat>
+				<bonus>4</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="stat">
+			<name>magic</name>
+			<rank>B</rank>
+			<stat_up>
+				<stat>mag</stat>
+				<bonus>6</bonus>
+			</stat_up>
+			<weapon_type>
+				<type>wind magic</type>
+				<rank>C</rank>
+			</weapon_type>
+			<weapon_type>
+				<type>fire magic</type>
+				<rank>C</rank>
+			</weapon_type>
+			<weapon_type>
+				<type>thunder magic</type>
+				<rank>C</rank>
+			</weapon_type>
+		</emblem>
+		<emblem type="stat">
+			<name>magic</name>
+			<rank>A</rank>
+			<stat_up>
+				<stat>mag</stat>
+				<bonus>7</bonus>
+			</stat_up>
+			<skills>
+				<skill>ignis</skill>
+			</skills>
+			<weapon_type>
+				<type>wind magic</type>
+				<rank>C</rank>
+			</weapon_type>
+			<weapon_type>
+				<type>fire magic</type>
+				<rank>C</rank>
+			</weapon_type>
+			<weapon_type>
+				<type>thunder magic</type>
+				<rank>C</rank>
+			</weapon_type>
+		</emblem>
+		<emblem type="stat">
+			<name>magic</name>
+			<rank>S</rank>
+			<stat_up>
+				<stat>mag</stat>
+				<bonus>8</bonus>
+			</stat_up>
+			<skills>
+				<skill>ignis</skill>
+			</skills>
+			<weapon_type>
+				<type>wind magic</type>
+				<rank>B</rank>
+			</weapon_type>
+			<weapon_type>
+				<type>fire magic</type>
+				<rank>B</rank>
+			</weapon_type>
+			<weapon_type>
+				<type>thunder magic</type>
+				<rank>B</rank>
+			</weapon_type>
+			<weapon_type>
+				<type>dark magic</type>
+				<rank>C</rank>
+			</weapon_type>
+		</emblem>
+		<emblem type="stat">
+			<name>speed</name>
+			<rank>X</rank>
+			<stat_up>
+				<stat>spd</stat>
+				<bonus>3</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="stat">
+			<name>speed</name>
+			<rank>C</rank>
+			<stat_up>
+				<stat>spd</stat>
+				<bonus>5</bonus>
+			</stat_up>
+			<skills>
+				<skill>adept</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>speed</name>
+			<rank>B</rank>
+			<stat_up>
+				<stat>spd</stat>
+				<bonus>7</bonus>
+			</stat_up>
+			<skills>
+				<skill>astra</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>speed</name>
+			<rank>A</rank>
+			<stat_up>
+				<stat>spd</stat>
+				<bonus>8</bonus>
+			</stat_up>
+			<skills>
+				<skill>astra</skill>
+				<skill>charge</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>speed</name>
+			<rank>S</rank>
+			<stat_up>
+				<stat>spd</stat>
+				<bonus>9</bonus>
+			</stat_up>
+			<skills>
+				<skill>astra</skill>
+				<skill>charge</skill>
+				<skill>vantage</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>skill</name>
+			<rank>X</rank>
+			<stat_up>
+				<stat>skl</stat>
+				<bonus>3</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="stat">
+			<name>skill</name>
+			<rank>C</rank>
+			<stat_up>
+				<stat>skl</stat>
+				<bonus>5</bonus>
+			</stat_up>
+			<skills>
+				<skill>weapon expert</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>skill</name>
+			<rank>B</rank>
+			<stat_up>
+				<stat>skl</stat>
+				<bonus>7</bonus>
+			</stat_up>
+			<skills>
+				<skill>weapon expert</skill>
+				<skill>rend</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>skill</name>
+			<rank>A</rank>
+			<stat_up>
+				<stat>skl</stat>
+				<bonus>8</bonus>
+			</stat_up>
+			<skills>
+				<skill>weapon expert</skill>
+				<skill>rend</skill>
+				<skill>rearm</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>skill</name>
+			<rank>S</rank>
+			<stat_up>
+				<stat>skl</stat>
+				<bonus>9</bonus>
+			</stat_up>
+			<skills>
+				<skill>weapon expert</skill>
+				<skill>rend</skill>
+				<skill>rearm</skill>
+				<skill>lethality</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>luck</name>
+			<rank>X</rank>
+			<stat_up>
+				<stat>lck</stat>
+				<bonus>5</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="stat">
+			<name>luck</name>
+			<rank>C</rank>
+			<stat_up>
+				<stat>lck</stat>
+				<bonus>8</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="stat">
+			<name>luck</name>
+			<rank>B</rank>
+			<stat_up>
+				<stat>lck</stat>
+				<bonus>10</bonus>
+			</stat_up>
+			<skills>
+				<skill>miracle</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>luck</name>
+			<rank>A</rank>
+			<stat_up>
+				<stat>lck</stat>
+				<bonus>12</bonus>
+			</stat_up>
+			<skills>
+				<skill>miracle</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>luck</name>
+			<rank>S</rank>
+			<stat_up>
+				<stat>lck</stat>
+				<bonus>15</bonus>
+			</stat_up>
+			<skills>
+				<skill>miracle</skill>
+				<skill>blossom</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>defense</name>
+			<rank>X</rank>
+			<stat_up>
+				<stat>def</stat>
+				<bonus>2</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="stat">
+			<name>defense</name>
+			<rank>C</rank>
+			<stat_up>
+				<stat>def</stat>
+				<bonus>3</bonus>
+			</stat_up>
+			<skills>
+				<skill>cancel</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>defense</name>
+			<rank>B</rank>
+			<stat_up>
+				<stat>def</stat>
+				<bonus>4</bonus>
+			</stat_up>
+			<skills>
+				<skill>cancel</skill>
+				<skill>pavise</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>defense</name>
+			<rank>A</rank>
+			<stat_up>
+				<stat>def</stat>
+				<bonus>5</bonus>
+			</stat_up>
+			<skills>
+				<skill>cancel</skill>
+				<skill>pavise</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>defense</name>
+			<rank>S</rank>
+			<stat_up>
+				<stat>def</stat>
+				<bonus>7</bonus>
+			</stat_up>
+			<skills>
+				<skill>cancel</skill>
+				<skill>pavise</skill>
+				<skill>luna</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>resistance</name>
+			<rank>X</rank>
+			<stat_up>
+				<stat>res</stat>
+				<bonus>2</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="stat">
+			<name>resistance</name>
+			<rank>C</rank>
+			<stat_up>
+				<stat>res</stat>
+				<bonus>3</bonus>
+			</stat_up>
+			<skills>
+				<skill>eagis</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>resistance</name>
+			<rank>B</rank>
+			<stat_up>
+				<stat>res</stat>
+				<bonus>4</bonus>
+			</stat_up>
+			<skills>
+				<skill>eagis</skill>
+				<skill>camaraderie</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>resistance</name>
+			<rank>A</rank>
+			<stat_up>
+				<stat>res</stat>
+				<bonus>5</bonus>
+			</stat_up>
+			<skills>
+				<skill>eagis</skill>
+				<skill>camaraderie</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>resistance</name>
+			<rank>S</rank>
+			<stat_up>
+				<stat>res</stat>
+				<bonus>7</bonus>
+			</stat_up>
+			<skills>
+				<skill>eagis</skill>
+				<skill>camaraderie</skill>
+				<skill>mantle</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>offensive movement</name>
+			<rank>X</rank>
+			<stat_up>
+				<stat>mov</stat>
+				<bonus>3</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="stat">
+			<name>offensive movement</name>
+			<rank>C</rank>
+			<stat_up>
+				<stat>mov</stat>
+				<bonus>3</bonus>
+			</stat_up>
+			<skills>
+				<skill>acrobat</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>offensive movement</name>
+			<rank>B</rank>
+			<stat_up>
+				<stat>mov</stat>
+				<bonus>3</bonus>
+			</stat_up>
+			<skills>
+				<skill>acrobat</skill>
+				<skill>climb</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>offensive movement</name>
+			<rank>A</rank>
+			<stat_up>
+				<stat>mov</stat>
+				<bonus>3</bonus>
+			</stat_up>
+			<skills>
+				<skill>climb</skill>
+				<skill>pass</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>offensive movement</name>
+			<rank>S</rank>
+			<stat_up>
+				<stat>mov</stat>
+				<bonus>3</bonus>
+			</stat_up>
+			<skills>
+				<skill>climb</skill>
+				<skill>pass</skill>
+				<skill>mov+1</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>defensive movement</name>
+			<rank>C</rank>
+			<skills>
+				<skill>reposition</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>defensive movement</name>
+			<rank>B</rank>
+			<skills>
+				<skill>reposition</skill>
+				<skill>obstruct</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>defensive movement</name>
+			<rank>A</rank>
+			<skills>
+				<skill>reposition</skill>
+				<skill>obstruct</skill>
+				<skill>immovable</skill>
+			</skills>
+		</emblem>
+		<emblem type="stat">
+			<name>defensive movement</name>
+			<rank>S</rank>
+			<skills>
+				<skill>reposition</skill>
+				<skill>obstruct</skill>
+				<skill>immovable</skill>
+				<skill>defender</skill>
+			</skills>
+		</emblem>
+		<emblem type="affinity">
+			<name>shield</name>
+			<rank>C</rank>
+			<stat_up>
+				<stat>as</stat>
+				<bonus>-2</bonus>
+			</stat_up>
+			<stat_up>
+				<stat>def</stat>
+				<bonus>3</bonus>
+			</stat_up>
+			<stat_up>
+				<stat>res</stat>
+				<bonus>1</bonus>
+			</stat_up>
+		</emblem>
+		<emblem type="affinity">
+			<name>shield</name>
+			<rank>B</rank>
+			<stat_up>
+				<stat>as</stat>
+				<bonus>-2</bonus>
+			</stat_up>
+			<stat_up>
+				<stat>def</stat>
+				<bonus>4</bonus>
+			</stat_up>
+			<stat_up>
+				<stat>res</stat>
+				<bonus>2</bonus>
+			</stat_up>
+			<skills>
+				<skill>parity</skill>
+			</skills>
+		</emblem>
+		<emblem type="affinity">
+			<name>shield</name>
+			<rank>A</rank>
+			<stat_up>
+				<stat>as</stat>
+				<bonus>-1</bonus>
+			</stat_up>
+			<stat_up>
+				<stat>def</stat>
+				<bonus>5</bonus>
+			</stat_up>
+			<stat_up>
+				<stat>res</stat>
+				<bonus>3</bonus>
+			</stat_up>
+			<skills>
+				<skill>parity</skill>
+				<skill>nullify</skill>
+			</skills>
+		</emblem>
+		<emblem type="affinity">
+			<name>shield</name>
+			<rank>S</rank>
+			<stat_up>
+				<stat>as</stat>
+				<bonus>-1</bonus>
+			</stat_up>
+			<stat_up>
+				<stat>def</stat>
+				<bonus>6</bonus>
+			</stat_up>
+			<stat_up>
+				<stat>res</stat>
+				<bonus>4</bonus>
+			</stat_up>
+			<skills>
+				<skill>parity</skill>
+				<skill>nullify</skill>
+				<skill>guard</skill>
+				<skill>nihil</skill>
+			</skills>
+		</emblem>
+	</emblems>
+</fednd2e_table>

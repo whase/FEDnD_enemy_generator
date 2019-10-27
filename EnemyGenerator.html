@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="jquery-3.3.1.min.js"></script>
+		<title>Fire Emblem D&D 2e Enemy Generator</title>
+		<script>
+			$(document).ready(function(){
+				//XML load w/ AJAX
+				var globalXmlData;
+				var archetypeXmlData;
+				var emblemXmlData;
+				
+				var globalStats = {
+					LVL: 0,
+					STARS: 0,
+					HP: 16,
+					STR: 2,
+					MAG: 2,
+					SKL: 3,
+					SPD: 3,
+					LCK: 5,
+					DEF: 2,
+					RES: 2
+				};
+				
+				var boons = [];
+				var neutrals = [];
+				var banes = [];
+				
+				globalUnitNumber = 0;
+				
+				letsGo();
+	
+				function letsGo() {
+				
+					$.ajax({
+						type: "GET",
+						url: 'FEDnD_data.xml',
+						dataType: "xml",
+						success: function (xml) { globalXmlData = xml; }
+					});
+					$.ajax({
+						type: "GET",
+						url: 'FEDnD_archetypes.xml',
+						dataType: "xml",
+						success: function (xml) { archetypeXmlData = xml; loadBaseFromXml(xml); }
+					});
+					$.ajax({
+						type: "GET",
+						url: 'FEDnD_emblems.xml',
+						dataType: "xml",
+						success: function (xml) { emblemXmlData = xml;}
+					});
+					
+					
+					for(i = 1; i<21; i++){
+						$('#level').append($('<option>', {
+							value: i,
+							text: i
+						}));
+					}
+				}
+				//Loading the basic xml data
+				function loadBaseFromXml(xml){ //called in letsGo() $.ajax
+					var $xml = $(xml),
+					name = $xml.find("archetype").each(function(){
+						var name = $(this).find("name").text();
+						$('#class').append($('<option>', {
+							value: name,
+							text: name
+						}));
+					});
+				};
+				
+				//ON SELECTING LOWER CLASS
+				$("#class").change(function(){
+					var cur_class = $(this).val();
+					//getUsableWeapons(cur_class);
+					
+				});
+				
+				function getEmblems(){} //UNFINISHED
+				
+				
+				//add the option list with usable weapons //UNFINISHED
+				function getUsableWeapons(currentClass){
+		
+					$("#weapons option").remove();
+					$(globalXmlData).find('table[name="classweapontypecouple"]').each(function(){
+						var className = $(this).find('column[name="class"]').text();
+						var weaponType = $(this).find('column[name="weapon"]').text();
+						if(currentClass == className){
+							$(globalXmlData).find('table[name="weapons"]').each(function(){
+								var name = $(this).find('column[name="weapon"]').text();
+								var type = $(this).find('column[name="type"]').text();
+								
+								if(weaponType == type){
+									$('#weapons').append($('<option>', {
+										value: name,
+										text: name
+									}));
+								}
+							});
+						}
+					});
+				}
+				
+				//CREATE A NEW UNIT FIELD
+				$("#create").click( function(){
+					createUnit();
+				});
+				//actual unit creation
+				function createUnit(){
+					var archetype = $("#class").val();
+					
+					//sort stats
+					$(archetypeXmlData).find('archetype').each(function(){
+						if($(this).find('name').text() == archetype){
+							console.log($(this).find('name').text());
+							$(this).find('stats').each(function(){
+								$(this).children().each(function(){
+									if($(this).text() == "boon"){
+										boons.push($(this)[0].nodeName);
+									}
+									else if($(this).text() == "bane"){
+										banes.push($(this)[0].nodeName);
+									}
+									else{
+										neutrals.push($(this)[0].nodeName);
+									}
+								});
+							});
+						}
+					});
+					
+					var targetlevel = $("#level").val();
+					
+					while(targetlevel>globalStats.LVL){
+						console.log(targetlevel + ">" + globalStats.LVL);
+						$(globalXmlData).find('level_up').each(function(){
+							if($(this).find('level').text() == (globalStats.LVL+1)){
+								switch($(this).find('stats').text()){
+									case "boon":
+										levelUp(boons);
+										break;
+									case "bane":
+										levelUp(banes);
+										break;
+									case "neutral":
+										levelUp(neutrals);
+										randomStatUp();
+										break;
+								}
+								console.log();
+							}
+						});
+						
+						globalStats.LVL++;
+					}
+					console.log(globalStats);
+					
+					
+					resetGlobalStats();
+				}
+				
+				//levels up by one level
+				function levelUp(stats){
+					
+					stats.forEach(function(stat){
+						statUp(stat, 1);
+					});
+					//console.log(globalStats.LVL);
+				}
+				
+				function statUp(stat, amount){
+					switch(stat){
+						case "hp":
+							globalStats.HP+=2;
+							break;
+						case "str":
+							globalStats.STR++;
+							break;
+						case "mag":
+							globalStats.MAG++;
+							break;
+						case "skl":
+							globalStats.SKL++;
+							break;
+						case "spd":
+							globalStats.SPD++;
+							break;
+						case "lck":
+							globalStats.LCK++;
+							break;
+						case "def":
+							globalStats.DEF++;
+							break;
+						case "res":
+							globalStats.RES++;
+							break;
+					}
+					console.log(stat + "++");
+				}
+				
+				function randomStatUp(){
+					var stats = ['hp', 'str', 'mag', 'skl', 'spd', 'lck', 'def', 'res'];
+					var stat = stats[Math.floor(Math.random()*stats.length)];
+					statUp(stat, 1);
+				}
+				
+				function resetGlobalStats(){
+					globalStats.LVL = 0;
+					globalStats.STARS = 0;
+					globalStats.HP = 16;
+					globalStats.STR = 2;
+					globalStats.MAG = 2;
+					globalStats.SKL = 3;
+					globalStats.SPD = 3;
+					globalStats.LCK = 5;
+					globalStats.DEF = 2;
+					globalStats.RES = 2;
+				}
+				
+			});
+		</script>
+	</head>
+	<body>
+		<div id="selectBar" style="border:3px solid black; margin:10px; width:100%; padding:10px;">
+		
+		<select id="class">
+		</select>
+		<select id="level">
+		</select>
+		<select id="weapons">
+		</select>
+		<button type="button" id="create">Create</button>
+	</div>
+	<div id="unitField" style=" float: left; border:3px solid black; margin:10px; width:100%; padding:10px;">
+		
+	</div>
+	</body>
+</html>

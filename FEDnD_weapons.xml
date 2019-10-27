@@ -1,0 +1,14 @@
+<fednd2e_table>
+	<weapons>
+		<weapon>
+			<name>iron knife</name>
+			<might>3</might>
+			<hit>9</hit>
+			<range>1</range>
+			<rank>C</rank>
+			<abilities>
+				<ability>thrown</ability>
+			</abilities>
+		</weapon>
+	</weapons>
+</fednd2e_table>

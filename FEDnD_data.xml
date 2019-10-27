@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fednd2e_tables>
+	<level_ups>
+		<level_up>
+			<level>1</level>
+			<stats>boon</stats>
+			<emblems>3</emblems>
+		</level_up>
+		<level_up>
+			<level>2</level>
+			<stats>neutral</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>3</level>
+			<stats>boon</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>4</level>
+			<stats>neutral</stats>
+			<emblems>1</emblems>
+		</level_up>
+		<level_up>
+			<level>5</level>
+			<stats>boon</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>6</level>
+			<stats>bane</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>7</level>
+			<stats>boon</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>8</level>
+			<stats>neutral</stats>
+			<emblems>1</emblems>
+		</level_up>
+		<level_up>
+			<level>9</level>
+			<stats>boon</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>10</level>
+			<stats>neutral</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>11</level>
+			<stats>boon</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>12</level>
+			<stats>bane</stats>
+			<emblems>1</emblems>
+		</level_up>
+		<level_up>
+			<level>13</level>
+			<stats>boon</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>14</level>
+			<stats>neutral</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>15</level>
+			<stats>boon</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>16</level>
+			<stats>neutral</stats>
+			<emblems>1</emblems>
+		</level_up>
+		<level_up>
+			<level>17</level>
+			<stats>boon</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>18</level>
+			<stats>bane</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>19</level>
+			<stats>boon</stats>
+			<emblems>0</emblems>
+		</level_up>
+		<level_up>
+			<level>20</level>
+			<stats>neutral</stats>
+			<emblems>1</emblems>
+		</level_up>
+	</level_ups>
+	<critical_dice>
+		<crit_roll>
+			<skill>5</skill>
+			<dice>1d6</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>7</skill>
+			<dice>2d4</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>9</skill>
+			<dice>1d4 1d6</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>11</skill>
+			<dice>2d6</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>13</skill>
+			<dice>1d6 1d8</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>15</skill>
+			<dice>2d8</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>17</skill>
+			<dice>3d6</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>19</skill>
+			<dice>2d6 1d8</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>21</skill>
+			<dice>1d6 2d8</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>23</skill>
+			<dice>3d8</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>25</skill>
+			<dice>1d6 1d8 1d12</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>27</skill>
+			<dice>2d8 1d12</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>29</skill>
+			<dice>1d6 2d12</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>31</skill>
+			<dice>2d6 1d20</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>33</skill>
+			<dice>1d6 1d8 1d20</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>35</skill>
+			<dice>2d8 1d20</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>37</skill>
+			<dice>1d6 1d12 1d20</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>39</skill>
+			<dice>1d8 1d12 1d20</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>41</skill>
+			<dice>1d6 3d12</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>43</skill>
+			<dice>1d8 3d12</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>45</skill>
+			<dice>1d6 1d8 1d12 1d20</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>47</skill>
+			<dice>4d12</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>49</skill>
+			<dice>1d6 2d12 1d20</dice>
+		</crit_roll>
+		<crit_roll>
+			<skill>50</skill>
+			<dice>3d20</dice>
+		</crit_roll>
+	</critical_dice>
+</fednd2e_tables>
